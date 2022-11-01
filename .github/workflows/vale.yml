@@ -12,7 +12,7 @@ push:
   workflow_dispatch:
 
   jobs:
-    builds:
+    build:
       runs-on: ubuntu-latest
       steps:
       - name: Checkout
